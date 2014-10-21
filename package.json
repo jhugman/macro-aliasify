@@ -1,0 +1,31 @@
+{
+  "name": "macro-aliasify",
+  "version": "0.0.0",
+  "description": "Cross module aliasify for your browserified builds using 'expose' mode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jhugman/macro-aliasify.git"
+  },
+  "keywords": [
+    "browserify-plugin",
+    "expose",
+    "external",
+    "alias"
+  ],
+  "author": "@jhugman",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/jhugman/macro-aliasify/issues"
+  },
+  "homepage": "https://github.com/jhugman/macro-aliasify",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "tap": "~0.4.12"
+  }
+}
