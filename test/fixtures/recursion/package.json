@@ -1,0 +1,17 @@
+{
+  "name": "recursion",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "aliasify": {
+    "aliases": {
+      "parent-aliased": "./lib/aliased-extension"
+    },
+    "verbose": true
+  },
+  "dependencies": {
+    "a-dependency": "*"
+  }
+}
